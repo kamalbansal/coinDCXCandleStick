@@ -1,0 +1,45 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 25vh;
+  align-items: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 15px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-row {
+  margin-bottom: 20px;
+}
+
+.App-body {
+  margin-left: 15px;
+}
+
+.App-button {
+  margin-left: 15px;
+  background-color: aqua;
+  font-size: small;
+}
+
+.Header-row {
+  padding-top: 45px;
+}
+
+.App-autoComplete {
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
