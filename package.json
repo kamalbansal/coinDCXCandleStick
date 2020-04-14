@@ -2,12 +2,16 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://public.coindcx.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "canvasjs": "^1.8.3",
     "react": "^16.12.0",
     "react-autocomplete": "^1.8.1",
+    "react-charts": "^2.0.0-beta.6",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "reactstrap": "^8.4.1"
@@ -32,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "eslint-plugin-react-hooks": "^2.3.0"
   }
 }
